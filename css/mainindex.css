@@ -1,28 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+header, main, nav, footer {
+    margin: 3% auto;
+    max-width: 760px;
+}
 
 body {
     font-family: 'Varela Round', sans-serif;
-
+    background-color:#edd0ce;
 }
 
-h1 {
-    color: red;
+.main-heading {
+    text-align: right;
+}
+
+header h1 {
+    background-color: #328fa8;
+    color: #baae29;
+    padding: 0.5em;
+    border-radius: 10px;
     text-align: left;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 42px;
 }
 
 img {
-    max-width: 100%;
+    width: 215px;
+    height: 275px;
     box-shadow: 0 0 20px 2px;
-    padding: 1em;
-    border-radius: 10px;
+    margin: 1em;
+    float: right;
 }
 
+/* Stuff in the main/nav */
+main h2 {
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+ul {
+    margin-top: 25px;
+    margin-bottom: 45px;
+    font-size: 18px;
+}
+
+ul a {
+    color: blue;
+}
+
+ul a:hover {
+    color: black;
+}
+/* Footer stuff here*/
 footer {
-    background-color: darkcyan;
+    background-color: #328fa8;
+    color: #382a16;
+    padding: 0.5em;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
 }
 
-#lastUpdate {
+#lastUpdated {
     color: darkred;
+    padding-left: 1em;
+    border-radius: 10px;
+    text-align: center;
 }
 
 footer a {
