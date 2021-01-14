@@ -1,13 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
-
 header, main, nav, footer {
     margin: 3% auto;
     max-width: 760px;
 }
 
 body {
-    font-family: 'Varela Round', sans-serif;
     background-color:#edd0ce;
 }
 
@@ -21,8 +17,8 @@ header h1 {
     padding: 0.5em;
     border-radius: 10px;
     text-align: left;
-    font-family: 'Archivo Black', sans-serif;
-    font-size: 42px;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
 }
 
 img {

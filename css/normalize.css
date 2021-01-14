@@ -40,6 +40,7 @@
   h1 {
     font-size: 2em;
     margin: 0.67em 0;
+    font-family: 'Lobster', cursive;
   }
   
   /* Grouping content
@@ -64,6 +65,10 @@
   pre {
     font-family: monospace, monospace; /* 1 */
     font-size: 1em; /* 2 */
+  }
+
+  p, nav {
+    font-family: 'Roboto', sans-serif;
   }
   
   /* Text-level semantics
