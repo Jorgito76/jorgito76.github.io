@@ -13,7 +13,7 @@ body {
 
 header h1 {
     background-color: #328fa8;
-    color: #baae29;
+    color: #cccc41;
     padding: 0.5em;
     border-radius: 10px;
     text-align: left;
@@ -22,8 +22,8 @@ header h1 {
 }
 
 img {
-    width: 215px;
-    height: 275px;
+    width: 185px;
+    height: 225px;
     box-shadow: 0 0 20px 2px;
     margin: 1em;
     float: right;
@@ -63,7 +63,7 @@ footer {
 }
 
 #lastUpdated {
-    color: darkred;
+    color: #382a16;
     padding-left: 1em;
     border-radius: 10px;
     text-align: center;
