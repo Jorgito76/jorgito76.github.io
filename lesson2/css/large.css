@@ -9,4 +9,11 @@
       header h2 {
       font-size: 30px;
   }
+  article h3 {
+    border-radius: 10px 10px 0 0;
+    font-size: 30px;
+    }
+    article {
+        box-shadow: 0.3em 0.3em 0.2em #8f8f8f;
+    }
 }

@@ -11,8 +11,16 @@
         font-size: 42px;
     }  
     
-        header h2 {
+    header h2 {
         font-size: 26px;
+    }
+
+    article h3 {
+        border-radius: 10px 10px 0 0;
+        font-size: 26px;
+    }
+    article {
+        box-shadow: 0.2em 0.2em 0.1em #8f8f8f;
     }
   }
   
