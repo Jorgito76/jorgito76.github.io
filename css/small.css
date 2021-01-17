@@ -7,27 +7,23 @@ body {
     background-color:#edd0ce;
 }
 
-.main-heading {
-    text-align: right;
-}
-
-header h1 {
+header {
     background-color: #328fa8;
-    color: #cccc41;
-    padding: 0.5em;
-    border-radius: 10px;
-    text-align: left;
-    font-family: 'Lobster', cursive;
-    font-size: 50px;
 }
 
-img {
-    width: 185px;
-    height: 225px;
-    box-shadow: 0 0 20px 2px;
-    margin: 1em;
-    float: right;
+h1 {
+    color: #cccc41;
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    padding: 0.5em;
+    text-align: center;
 }
+
+header img {
+    width: 200px;
+    height: auto;
+    margin-left: 5em;
+    }
 
 /* Stuff in the main/nav */
 main h2 {
@@ -37,12 +33,13 @@ main h2 {
 
 h2 {
     margin-left: 20px;
+    font-size: 20px;
 }
 
 ul {
     margin-top: 25px;
     margin-bottom: 45px;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 ul a {
@@ -57,7 +54,6 @@ footer {
     background-color: #328fa8;
     color: #382a16;
     padding: 0.5em;
-    border-radius: 10px;
     text-align: center;
     font-size: 18px;
 }
@@ -65,7 +61,6 @@ footer {
 #lastUpdated {
     color: #382a16;
     padding-left: 1em;
-    border-radius: 10px;
     text-align: center;
 }
 
