@@ -6,7 +6,7 @@ h1, h2 {
     font-family: 'Patrick Hand', cursive;
 }
 
-p, nav {
+p, nav, ol li, ul li, table tbody tr td {
     font-family: 'DM Sans', sans-serif;
 }
 
@@ -104,6 +104,8 @@ main div.grid_layout {
     grid-row: 3;
     background-color: white;
 }
+
+
 
 /* FOOTER STYLE */
 footer {
