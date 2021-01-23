@@ -68,11 +68,13 @@ main {
 
 main table {
     text-align: center;
+    padding: 1rem;
 }
 
 main table thead tr th {
     font-size: 20px;
     font-family: 'Patrick Hand', cursive;
+    padding: 1rem;
 }
 
 main div img {
@@ -105,7 +107,9 @@ main div.grid_layout {
     background-color: white;
 }
 
-
+.table_pad {
+    padding: 1rem;
+}
 
 /* FOOTER STYLE */
 footer {
