@@ -66,6 +66,10 @@ main {
     padding: 1rem;
 }
 
+main table {
+    text-align: center;
+}
+
 main table thead tr th {
     font-size: 20px;
     font-family: 'Patrick Hand', cursive;
@@ -76,6 +80,29 @@ main div img {
     border-radius: 25px;
     max-width: 100%;
     height: auto;
+}
+
+main div.grid_layout {
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.scheme_1, .scheme_2, .scheme_3 {
+    margin: auto;
+    padding: 1rem;
+}
+.scheme_1 {
+    grid-row: 1;
+}
+
+.scheme_2 {
+    grid-row: 2;
+}
+
+.scheme_3 {
+    grid-row: 3;
+    background-color: white;
 }
 
 /* FOOTER STYLE */

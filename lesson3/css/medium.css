@@ -2,9 +2,32 @@
 
     
     /* HEADER STYLE */
-    
+    header h1 {
+        text-align: left;
+        margin-left: 75px;
+        font-size: 42px;
+    }
+
+    header h2 {
+        text-align: left;
+        margin-left: 75px;
+        font-size: 22px;
+    }
+
     /* NAV  STYLE */
-    
+    nav ul {
+        margin-left: 1rem;
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    nav ul li a {
+        padding: 1rem;
+    }
+
     /* MAIN STYLE */
     main div.grid_layout {
         display: grid;
@@ -15,6 +38,7 @@
     .scheme_1, .scheme_2, .scheme_3 {
         margin: auto;
         padding: 1rem;
+        grid-row: 1;
     }
     .scheme_1 {
         grid-column: 1;
