@@ -83,12 +83,16 @@ nav ul.hide {
 
 /* MAIN STYLE */
 
+main {
+    background-color: #D5F3FE;
+    padding: 1rem;
+}
+
 .contentbox {
     display: block;
     margin: 10px auto;
     border: 1px dashed black;
     padding: 15px;
-    background-color: D5F3FE;
 }
 
 
