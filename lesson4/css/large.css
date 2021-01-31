@@ -1,10 +1,14 @@
 @media only screen and (min-width: 64rem) {
 
-    /*----------- NAVIGATION --------------*/
-    /* display nav normally for large screens */
-    nav ul, nav ul.hide {margin-left: 1rem; display: flex;}
-    /* added .hide class to fix error with hidden nav when menu is collapsed */
-    nav ul li { flex: 1 1 100%;}
+    /* NAV STYLE*/
+    nav ul, nav ul.hide {
+        margin-left: 1rem; 
+        display: flex;
+    }
+
+    nav ul li { 
+        flex: 1 1 100%;
+    }
     nav ul li a {
         padding: .5rem 1rem;
         font-size: 1.0rem;
@@ -14,7 +18,7 @@
         display: none;
     }
 
-    /* ------------MAIN------------- */
+    /* MAIN STYLE */
 
     main, footer {
         max-width: 64rem;

@@ -1,48 +1,50 @@
-/* apply box layout to all elements */
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-/* Default styles */
+/* FONT / COLOR STYLES */
 
-h1 {font-size: 1.3rem; font-family: 'Righteous', sans-serif;}
-
-h2 {font-size:1.2rem; font-family: 'Mukta', sans-serif;}
-
-h3 {font-size:1.0rem; font-family: 'Mukta', sans-serif;}
-
-p, ol, button {font-size: 16px; font-family: 'Mukta', sans-serif;}
-
-.white-text {color: #FFFFFF;}
-
-main {background-color: #F5F5F5;}
-
-main, footer {
-    padding: 1rem;
+h1, h2 {
+    font-family: 'Patrick Hand', cursive;
 }
 
-/* Header styles */
+p, nav, ol li, ul li, table tbody tr td, .contentbox {
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* Apply background color */
+header, footer, nav {
+    background-color: #3C99DC;
+}
+
+
+/* HEADER STYLE */
+.logo {
+    float: left;
+    width: auto;
+    background-color: #3C99DC;
+}
+
 header {
     padding: 1rem;
-    background-color: #162F33;
-}
-
-header h1 {
-    font-family: 'Righteous', sans-serif;
-}
-
-header h1, header h2 {
     margin: 0;
 }
 
-header img {
-    float: left;
-    width: 50px;
-    margin-right: 1rem;
-    border-radius: 9px;
+header h1{
+    margin: 1rem;
+    text-align: right;
+    font-size: 32px;
 }
 
-/* navigation */
+header h2 {
+    margin-left: 15px;
+    text-align: center;
+    font-size: 20px;
+}
 
-nav {background-color: #162F33;}
+/* NAV STYLE */
+
+.menuButton {
+    color: black;
+}
 
 nav ul {
     list-style-type: none;
@@ -56,90 +58,51 @@ nav button {
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
-    color: #FFFFFF;
+    ;
 }
 
 nav ul li a {
-    display: block;
-    color: #ffffff;
-    padding: .5rem 0;
     text-decoration: none;
-    font-size: 0.9rem;
-    font-family: 'Mukta', sans-serif;
     text-align: center;
+    display: block;
+    padding: .5rem 0;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
 }
 
-nav ul li a:hover {
-    background-color:  #3AD4F0;
-    color: #000000
-}
 
-nav ul li.active-page a {
-    background-color:#045462;
-    color: #fff; /* removes a hover color error on text */
+
+.active {
+    background-color: #66D3FA;
 }
 
 nav ul.hide {
     display: none;
 }
 
-/* main styles */
+/* MAIN STYLE */
 
-img {max-width: 100%;}
-
-img.hero {
-    min-width: 100%
-}
-
-.five-day {
-    /* temporary placeholder styles */
-    padding: 2rem;
-    margin: 2rem 1rem;
-    background-color: rgba(0,0,0,0.3)
-}
-
-article.forecast-article {
-    border-radius: 10px;
-    background-color: #FFF;
-    padding: 1rem;
-    box-shadow: 10px 10px 5px rgba(0,0,0,0.5);
-}
-
-article h3 {
-    /* fix heading to edges of article */
-    margin: -1rem -1rem 0 -1rem;
-
-    background-color: #045462;
-    color: #FFF;
-    padding: 1rem;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-article h3 a {
-    color: #FFF;
-}
-
-img.credit-img {
+.contentbox {
     display: block;
-    max-width: 320px;
-    margin: 1rem auto;
+    margin: 10px auto;
+    border: 1px dashed black;
+    padding: 15px;
+    background-color: D5F3FE;
 }
 
-section.contact {
-    background-color: #045462;
-    color: #FFF;
+
+/* FOOTER STYULE */
+
+footer {
     padding: 1rem;
-    margin: 1rem -1rem -1rem -1rem;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
 }
 
-/* footer styles */
+/* ADDITIONAL STYLES */
 
-footer {background-color: #162F33; color: #ffffff;}
-footer a {color:#ffffff;}
-footer p {text-align: center;}
-
-/*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
     display: table;
