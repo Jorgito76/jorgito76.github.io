@@ -6,7 +6,7 @@ h1, h2 {
     font-family: 'Patrick Hand', cursive;
 }
 
-p, nav, ol li, ul li, table tbody tr td, .contentbox {
+p, nav, ol li, ul li, table tbody tr td, .contentbox, .showme {
     font-family: 'DM Sans', sans-serif;
 }
 
@@ -38,6 +38,27 @@ header h2 {
     margin-left: 15px;
     text-align: center;
     font-size: 20px;
+}
+
+/* MESSAGE STUFF */
+
+header div#message {
+    background-color: purple;
+}
+
+header .showme {
+    display: block;
+    padding: 1rem;
+    margin: 0;
+    color: white;
+    margin-bottom: 7px;
+    border-style: solid;
+    border-color: white;
+    text-align: center;
+}
+
+header .hideme {
+    display: none;
 }
 
 /* NAV STYLE */
