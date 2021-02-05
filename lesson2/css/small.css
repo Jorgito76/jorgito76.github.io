@@ -18,7 +18,7 @@
   header,
   footer {
     background-color: #328fa8;
-    color: #fcfc6a;
+    color: #f7fb05;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.253);
     text-align: center;
   }
@@ -106,7 +106,7 @@
 
     /* Footer rules go here */
     footer {
-      font-size: 16px;
+      font-size: 22px;
       font-weight: bold;
       font-family: 'Maven Pro', sans-serif;
     }
