@@ -98,7 +98,10 @@ main {
     padding: 15px;
 }
 
-
+.center {
+    max-width: 48rem;
+    margin: auto;
+}
 
 
 /* FOOTER STYULE */
@@ -108,6 +111,10 @@ footer {
     text-align: center;
     font-size: 16px;
     font-weight: bold;
+}
+
+footer a {
+    color: black;
 }
 
 /* ADDITIONAL STYLES */

@@ -212,6 +212,10 @@ footer {
     font-weight: bold;
 }
 
+footer a {
+    color: black;
+}
+
 /* ADDITIONAL STYLES */
 
 .clearfix:after {
