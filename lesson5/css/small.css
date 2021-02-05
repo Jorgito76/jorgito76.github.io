@@ -171,7 +171,6 @@ section div img {
 
 section h3 {
     padding-top: 1rem;
-    margin: none;
 }
 
 .contact-grid {
@@ -197,7 +196,7 @@ section h3 {
 }
 
 .map {
-    grid-column: 1 2;
+    grid-column: 1 ;
     grid-row: 2;
     width: 55%;
 }
