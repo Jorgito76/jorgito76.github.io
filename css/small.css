@@ -8,12 +8,12 @@ body {
 }
 
 header, footer, #lastUpdated {
-    background-color: #3aaccc;
-    color:  #f7fb05;
+    background-color: #45b9da;
+    color:  #000000;
 }
 
 h1 {
-    color: #f7fb05;
+    color: #000000;
     font-family: 'Lobster', cursive;
     font-size: 35px;
     padding: 0.5em;
