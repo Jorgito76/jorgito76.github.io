@@ -30,7 +30,11 @@
     nav ul li a {
         padding: .5rem 1rem;
         font-size: 1.0rem;
-        }
+    }
+
+    nav ul li a:hover {
+        background-color: #66D3FA;
+    }
 
     nav button {
         display: none;
@@ -61,6 +65,13 @@
         width: 100%;
         height: auto;
         margin-left: 0px;
+    }
+
+    /* FORECAST STYLES */
+
+    section div img {
+        width: 55%;
+        height: auto;
     }
     
     /* ARTICLE STYLES */
