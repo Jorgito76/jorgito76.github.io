@@ -12,7 +12,7 @@ header {
 }
 
 h1 {
-    color: #cccc41;
+    color: #f7fb05;
     font-family: 'Lobster', cursive;
     font-size: 35px;
     padding: 0.5em;
@@ -52,22 +52,23 @@ ul a:hover {
 /* Footer stuff here*/
 footer {
     background-color: #328fa8;
-    color: #382a16;
+    color:  #f7fb05;
     padding: 0.5em;
     text-align: center;
     font-size: 18px;
 }
 
 #lastUpdated {
-    color: #382a16;
+    color:  #f7fb05;
     padding-left: 1em;
     text-align: center;
 }
 
 footer a {
-    color: blue;
-}
+    color: unset;
+    text-decoration: none;
+  }
 
-footer a:hover {
-    color: black;
-}
+  footer a:hover {
+      color: purple;
+  }
