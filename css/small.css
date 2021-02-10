@@ -7,8 +7,9 @@ body {
     background-color:#edd0ce;
 }
 
-header {
-    background-color: #328fa8;
+header, footer, #lastUpdated {
+    background-color: #3aaccc;
+    color:  #f7fb05;
 }
 
 h1 {
@@ -51,15 +52,12 @@ ul a:hover {
 }
 /* Footer stuff here*/
 footer {
-    background-color: #328fa8;
-    color:  #f7fb05;
     padding: 0.5em;
     text-align: center;
     font-size: 18px;
 }
 
 #lastUpdated {
-    color:  #f7fb05;
     padding-left: 1em;
     text-align: center;
 }
