@@ -1,0 +1,137 @@
+@media only screen and (min-width: 35rem) {
+
+    /* HEADER STYLE*/
+    
+    header {
+        padding-bottom: 2px;
+    }
+    
+    header img {
+        width: 75px;
+    }
+
+    header h1 {
+        font-size: 42px;
+    }
+
+    header h2 {
+        font-size: 22px;
+    }
+
+    /* NAV STYLE */
+    nav ul, nav ul.hide {
+        margin-left: 1rem; 
+        display: flex;
+    }
+
+    nav ul li { 
+        flex: 1 1 100%;
+    }
+    nav ul li a {
+        padding: .5rem 1rem;
+        font-size: 1.0rem;
+    }
+
+    nav ul li a:hover {
+        background-color: #66D3FA;
+    }
+
+    nav button {
+        display: none;
+    }
+
+
+    /*MAIN STYLE */
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    .center-content {
+        max-width: 56rem;
+        margin: auto;
+        background-color: #D5F3FE;
+    }
+
+    .weather-pic {
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+    }
+
+    /* FORECAST STYLES */
+
+    section div img {
+        width: 55%;
+        height: auto;
+    }
+    
+    /* ARTICLE STYLES */
+
+    .article-pic-1 {
+        display: block;
+        width: 50%;
+        float: right;
+        padding: .5rem;
+    }
+
+    .article-pic-2 {
+        display: none;
+    }
+
+    /* FORECAST STYLES */
+    .forecast {
+        display: block;
+    }
+    .forecast-grid-layout {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .firstDay, .secondDay, .thirdDay, .fourthDay, .fifthDay {
+        padding: 1rem;
+    }
+
+
+    /* CONTACT STYLES */
+    
+    .contact-style {
+        margin-top: 30px;
+    }
+    .contact-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .column-1 {
+        grid-column: 1;
+        grid-row: 1;
+        padding: 0 1rem;
+        margin-top: -30px;
+    }
+    
+    .column-2 {
+        grid-column: 2;
+        grid-row: 1;
+        padding: 0 2px;
+        margin-top: -30px;
+        
+    }
+    
+    .map {
+        grid-column:  3;
+        grid-row: 1;
+        width: 100%;
+    }
+
+} /* end of media query */
