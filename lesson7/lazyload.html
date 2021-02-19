@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Lazy Load Image Lesson 7" />
+    <meta name="author" content="Jorge Ovalle" />
+    <title>Lazy Load</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/small.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <h1>Lazy Load Images</h1>
+    </header>
+    <main>
+        <picture>
+            <img src="images/blank_placeholder.jpg" loading="lazy" data-src="https://picsum.photos/id/1001/300/400"  width="300" height="400" 
+            alt="beach family"/>
+        </picture>
+        <picture>
+            <img src="images/blank_placeholder.jpg" loading="lazy" data-src="https://picsum.photos/id/1003/300/400" width="300" height="400"
+                alt="Bambi" />
+        </picture>
+        <picture>
+            <img src="images/blank_placeholder.jpg" loading="lazy" data-src="https://picsum.photos/id/1010/300/400" width="300" height="400"
+                alt="Bible Study" />
+        </picture>
+        <picture>
+            <img src="images/blank_placeholder.jpg" loading="lazy" data-src="https://picsum.photos/id/1019/300/400" width="300" height="400"
+                alt="Beach side view" />
+        </picture>
+        <picture>
+            <img src="images/blank_placeholder.jpg" loading="lazy" data-src="https://picsum.photos/id/1025/300/400" width="300" height="400"
+                alt="a little chilli" />
+        </picture>
+        <picture>
+            <img src="images/blank_placeholder.jpg" loading="lazy" data-src="https://picsum.photos/id/1042/300/400" width="300" height="400"
+                alt="Stary Stary Night Live" />
+        </picture>
+    </main>
+    <footer>
+        <p>&copy; Jorge Ovalle | 2021 | </p>
+        <p><a href="../index.html"> Back to Main Page</a></p>
+    </footer>
+    <script src="lazy.js"></script>
+</body>
+
+</html>
