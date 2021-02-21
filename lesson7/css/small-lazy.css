@@ -1,0 +1,19 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+h1, picture, footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+img {
+    transition: filter 1s;
+    box-shadow: 0 0 10px black;
+  }
+
+img[data-src] {
+    filter: blur(0.5em);
+  }
+  
