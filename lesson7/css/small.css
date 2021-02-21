@@ -129,7 +129,7 @@ main h1, figcaption {
     justify-items: center;
 }
 
-img {
+figure img {
     transition: filter 1s;
     box-shadow: 0 0 10px black;
     width: 100%;
