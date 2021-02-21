@@ -61,44 +61,10 @@
         background-color: #D5F3FE;
     }
 
-    .weather-pic {
-        width: 100%;
-        height: auto;
-        margin-left: 0px;
-    }
-
-    /* FORECAST STYLES */
-
-    section div img {
-        width: 55%;
-        height: auto;
-    }
-    
-    /* ARTICLE STYLES */
-
-    .article-pic-1 {
-        display: block;
-        width: 50%;
-        float: right;
-        padding: .5rem;
-    }
-
-    .article-pic-2 {
-        display: none;
-    }
-
-    /* FORECAST STYLES */
-    .forecast {
-        display: block;
-    }
-    .forecast-grid-layout {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    }
-
-    .firstDay, .secondDay, .thirdDay, .fourthDay, .fifthDay {
-        padding: 1rem;
-    }
+   .gallery-grid {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+   }
 
 
     /* CONTACT STYLES */

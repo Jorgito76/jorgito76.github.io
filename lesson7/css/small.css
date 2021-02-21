@@ -115,11 +115,24 @@ main {
     padding: 1rem;
 }
 
+main h1, figcaption {
+    text-align: center;
+}
 
+.gallery-grid {
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    grid-gap: 1rem;
+    margin: 0 0 1rem 0;
+    justify-items: center;
+}
 
 img {
     transition: filter 1s;
     box-shadow: 0 0 10px black;
+    width: 100%;
   }
 
 img[data-src] {

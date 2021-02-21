@@ -15,6 +15,11 @@
         margin: 0 auto;
     }
 
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
     /* BODY STYLE */
     .center-content {
         max-width: 56rem;
