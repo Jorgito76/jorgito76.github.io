@@ -4,16 +4,16 @@ header, main, nav, footer {
 }
 
 body {
-    background-color:#edd0ce;
+    background-color:white;
 }
 
 header, footer, #lastUpdated {
-    background-color: #45b9da;
-    color:  #000000;
+    background-color: #328fa8;
+    color:  #f7fb05;
 }
 
 h1 {
-    color: #000000;
+    color: #f7fb05;
     font-family: 'Lobster', cursive;
     font-size: 35px;
     padding: 0.5em;

@@ -1,6 +1,6 @@
 @media only screen and (min-width: 32.5em){     
     header h1 {
-        font-size: 55px;
+        font-size: 50px;
         font-family: 'Lobster', cursive;
         text-align: left;
     }
@@ -17,7 +17,7 @@
     }
     
     footer {
-        font-size: 28px;
+        font-size: 22px;
         font-weight: 700;
     }
 
