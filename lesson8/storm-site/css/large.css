@@ -1,0 +1,30 @@
+@media only screen and (min-width: 64rem) {
+
+
+    /* HEADER STYLE */
+
+    /* NAV STYLE*/
+    nav ul#optionsNav, .headerStyle {
+        max-width: 64rem;
+        margin: auto;
+    }
+
+    /* MAIN STYLE */
+
+    main, footer {
+        margin: 0 auto;
+    }
+
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    /* BODY STYLE */
+    .center-content {
+        max-width: 56rem;
+        margin: auto;
+        background-color: #D5F3FE;
+    }
+  
+} /* end of media query */
