@@ -1,0 +1,117 @@
+*,
+*::before,
+*::after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: 'Patrick Hand', cursive;
+}
+
+header h1 {
+    text-align: center;
+    padding: 2.5rem;
+    color: white;
+    font-weight: 500;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+p {
+    font-family: 'DM Sans', sans-serif;
+}
+
+body {
+    background-color: #D5F3FE;
+}
+
+header, footer, nav {
+    background-color: #3C99DC;
+    height: 8rem;
+}
+
+main {
+    padding: 1rem;
+}
+
+.cards {
+    display: grid;
+    justify-items: center;
+    grid-gap: 1.5rem .5rem;
+    grid-template-columns: 1fr;
+    text-align: right;
+    white-space: pre;
+}
+
+.cards div {
+    width: 11rem;
+}
+
+.cards section {
+    display: grid;
+    grid-template-columns: 5rem 1fr;
+    height: 13.5rem;
+    width: 18rem;
+    background-color: white;
+    padding: 0 1rem .5rem 1rem;
+    background-color:rgb(43, 9, 30);
+    overflow: hidden;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+.card-title {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    padding: 1rem 0 1rem 0;
+}
+
+.cards img {
+    border-radius: 50%;
+    height: 9rem;
+}
+
+.cards p {
+    padding: .5rem 0 .5rem 0;
+}
+
+footer {
+    height: 4rem;
+    text-align: center;
+    padding: 1.5rem;
+    color: white;
+}
+
+/* MEDIUM SCREENS */
+@media only screen and (min-width: 42rem) {
+
+    main {
+        margin: 0 auto;
+        width: 40rem;
+    }
+
+    .cards {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+/* LARGE SCREENS */
+@media only screen and (min-width: 80rem) {
+
+    main {
+        width: 78rem;
+    }
+
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+}
