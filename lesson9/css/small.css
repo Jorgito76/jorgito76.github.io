@@ -1,0 +1,178 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* FONT / COLOR STYLES */
+
+h1, h2, h3 {
+    font-family: 'Patrick Hand', cursive;
+}
+
+p, nav, ol li, ul li, table tbody tr td, .contentbox, .showme {
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* Apply background color */
+header, footer, nav {
+    background-color: #3C99DC;
+}
+
+body {
+    background-color: #D5F3FE;
+}
+
+
+/* HEADER STYLE */
+.logo {
+    float: left;
+    width: auto;
+    background-color: #3C99DC;
+}
+
+header {
+    padding: 1rem;
+    margin: 0;
+}
+
+header h1{
+    margin: 1rem;
+    text-align: left;
+    font-size: 32px;
+}
+
+header h2 {
+    margin-left: 15px;
+    text-align: left;
+    font-size: 20px;
+}
+
+header h1, header h2 {
+    margin-left: 85px;
+}
+
+/* MESSAGE STUFF */
+
+header div#message {
+    background-color: purple;
+}
+
+header .showme {
+    display: block;
+    padding: 1rem;
+    margin: 0;
+    color: white;
+    margin-bottom: 7px;
+    border-style: solid;
+    border-color: white;
+    text-align: center;
+}
+
+header .hideme {
+    display: none;
+}
+
+/* NAV STYLE */
+
+.menuButton {
+    color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav button {
+    display: block;
+    margin: 0 auto;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    ;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: .5rem 0;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+
+.active {
+    background-color: #66D3FA;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+/* MAIN STYLE */
+
+main {
+    background-color: #D5F3FE;
+    padding: 1rem;
+}
+
+picture .hero_img {
+    display: block;
+    width: 100%;
+    align-items: center;
+}
+
+#cards div figure img {
+    width: 100%; 
+    height: auto;
+}
+
+#cards div section {
+    text-align: center;
+}
+
+article img {
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.contact_us h2 {
+    padding-top: 1rem;
+}
+
+.contact_whole {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 2%;
+}
+
+picture img {
+    width: 100%;
+}
+
+/* FOOTER STYULE */
+
+footer {
+    padding: 1rem;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer a {
+    color: black;
+}
+
+/* ADDITIONAL STYLES */
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .center-content {
+    max-width: 56rem;
+    margin: auto;
+    background-color: #D5F3FE;
+}

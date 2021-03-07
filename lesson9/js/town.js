@@ -27,7 +27,9 @@ fetch(requestURL)
                 rain.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
                 image.setAttribute('src', 'images/'+towns[i].photo);
                 image.setAttribute('alt', towns[i].name + ' Hometown');
-
+                image.setAttribute('width', '400');
+                image.setAttribute('height', '200');
+                
                 photo.appendChild(image);
                 card.appendChild(photo);
 

@@ -44,8 +44,12 @@
     </nav>
    
     <!-- MAIN SET UP -->
-    <main>
-        <img class="hero" src="images/banner.jpg" alt="banner hero image">
+    <main class="center-content">
+        <picture class="hero_img">
+            <source media="(max-width: 500px)" srcset="images/bannerSmall.jpg">
+            <source media="(max-width: 1024px)" srcset="images/bannerMedium.jpg">
+            <img src="images/banner.jpg" alt="view of town"> 
+        </picture>
         <div id="cards"></div>
 
         <article class="articleSplit">
@@ -74,6 +78,23 @@
                 tincidunt mattis, tortor neque adipiscin.
             </p>
         </article>
+        <div class="contact_us">
+            <h2>Contact Us</h2>
+            <div class="contact_whole">
+                <section class="address">
+                    <h3>Address:</h3>
+                    <p>Is It Snowing HQ<br>
+                    123 Main Street.<br>
+                    Sandy, UT 84070</p>
+                </section>
+                <section class="method">
+                    <h3>Phone:</h3>
+                    <p>(801)999-9999</p>
+                    <h3>Email:</h3>
+                    <p>contact@yoururl.com</p>
+                </section>
+            </div>  
+        </div>
     </main>
 
 
