@@ -6,7 +6,7 @@ h1, h2, h3 {
     font-family: 'Patrick Hand', cursive;
 }
 
-p, nav, ol li, ul li, table tbody tr td, .contentbox, .showme {
+p, nav, ol li, ul li, table tbody tr td, .contentbox, .showme, form {
     font-family: 'DM Sans', sans-serif;
 }
 
@@ -48,8 +48,61 @@ header h1, header h2 {
     margin-left: 85px;
 }
 
-/* MESSAGE STUFF */
 
+/*TABLE STUFF */
+form fieldset {
+    max-width: 650px;
+    margin: 20px auto;
+}
+
+form fieldset {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+form legend {
+    color: black;
+    margin: 0 1rem;
+    padding: 0 .5rem; 
+}
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: black;
+}
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    font: 16px;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,.1);
+}
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+form input.submitBtn {
+    border: none;
+    background-color: #3C99DC;
+    color: black;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 5px 465px;
+}
+form label.top input:required {
+    border-left: 6px solid red;
+}
+form label.top input:required:valid {
+    border-left: 6px solid green;
+}
+
+/* MESSAGE STUFF */
 header div#message {
     background-color: purple;
 }

@@ -15,6 +15,13 @@
         margin: 0 auto;
     }
 
+    main .summary {
+        padding: 5px;
+        position: absolute;
+        top: 305px;
+        background-color: #f7fff7;
+    }
+
     /* BODY STYLE */
     .center-content {
         max-width: 56rem;
