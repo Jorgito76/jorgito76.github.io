@@ -48,7 +48,7 @@
 
      <!-- MAIN STUFF -->
     <main class="center-content">
-        <h2>Preston Idaho</h2>
+        <h2 id="townName">Preston Idaho</h2>
         <!--<img class="weather-pic" src="images/rsz_small_frost (1).jpg" alt="weather image for weather summary"> -->
         <picture class='hero-image'>
             <source media='(max-width: 500px)' srcset='images/hero-small.jpg'>
@@ -59,9 +59,9 @@
     <!-- HERO WEATHER SUMMARY AND EVENTS -->
             <div class="summary">
                 <h2>Weather Summary</h2>
-                <p>Town Name: <span id="name"></span></p>
-                <p>Temperature: <span id="current-temp"></span>&deg;F</p>
-                <p>High: <span id="temp-max"></span>&deg;F</p>
+                <p>Town Name: <span id="town"></span></p>
+                <p>Temperature: <span id="temperature"></span>&deg;F</p>
+                <p>High: <span id="hightemp"></span>&deg;F</p>
                 <p>Humidity: <span id="humidity"></span>%</p>
                 <p>Wind Speed: <span id="speed"></span> mph</p>
                 <p>Windchill: <span id="chill">message</span>
@@ -75,38 +75,11 @@
             </div>
  
     <!-- 5-DAY FORECAST -->
+    <h2>Five Day Forecast</h2>
         <section class="forecast">
-            <h2>Five Day Forecast</h2>
             <div class="forecast-grid-layout">
-                <div class="firstDay">
-                    <h3>Monday</h3>
-                    <img src="images/iconfinder_cloud_2995000.png" alt="icon of the day's weather">
-                    <p>Highest</p>
-                    <p>Lowest</p>
-                </div>
-                <div class="secondDay">
-                    <h3>Tuesday</h3>
-                    <img src="images/iconfinder_flash-cloud_2995010.png" alt="icon of the day's weather">
-                    <p>Highest</p>
-                    <p>Lowest</p>
-                </div>
-                <div class="thirdDay">
-                    <h3>Wednesday</h3>
-                    <img src="images/iconfinder_rain-cloud_2995003.png" alt="icon of the day's weather">
-                    <p>Highest</p>
-                    <p>Lowest</p>
-                </div>
-                <div class="fourthDay">
-                    <h3>Thursday</h3>
-                    <img src="images/iconfinder_snow-cloud_2995007.png" alt="icon of the day's weather">
-                    <p>Highest</p>
-                    <p>Lowest</p>
-                </div>
-                <div class="fifthDay">
-                    <h3>Friday</h3>
-                    <img src="images/iconfinder_sun_2995005.png" alt="icon of the day's weather">
-                    <p>Highest</p>
-                    <p>Lowest</p>
+                <div id='forecastDays'>
+
                 </div>
             </div>
         </section>

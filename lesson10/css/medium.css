@@ -91,14 +91,17 @@
     .forecast {
         display: block;
     }
-    .forecast-grid-layout {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    }
+
 
     .firstDay, .secondDay, .thirdDay, .fourthDay, .fifthDay {
         padding: 1rem;
     }
+
+
+
+    section.forecast div {
+        text-align: center;
+        border: 1px solid black;
 
 
     /* CONTACT STYLES */

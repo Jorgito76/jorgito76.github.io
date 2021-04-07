@@ -28,5 +28,8 @@
         margin: auto;
         background-color: #D5F3FE;
     }
+    #forecastDays {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   
 } /* end of media query */
