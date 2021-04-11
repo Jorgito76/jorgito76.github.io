@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"/>
+    <title>Pleasant Grove | GatherPG</title>
+    <meta name="description" content="Pleasant Grove show off" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+  <body>
+    <header>
+        <div class="fullHeader clearfix">
+            
+            <div class="headerTitles">
+                <h1>GatherPG</h1>
+                <h2>Meet us at the Grove</h2>
+            </div>
+            <div class="headerLogo">
+                <img src="images/chamberlogo.svg" alt="logo for GatherPG">
+            </div>
+            <button id="primaryOpen" class="" onclick="toggleMenu()">&#9776; Menu</button>
+            <button id="primaryClose" class="disabled" onclick="toggleMenu()">X Menu</button>
+        </div>
+    </header>
+    <nav>
+        <div class="navContainer">
+            <ul id="primaryNav" class="nav disabled">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="pleasantGrove.html">Pleasant Grove</a></li>
+                <li><a href="join.html">Join Us</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="hero">
+            <picture class="heroImg">
+                <source media="(max-width: 500px)" srcset="images/athenshero500x238.jpg">
+                <source media="(max-width: 1024px)" srcset="images/athenshero704x335.jpg">
+                <img src="images/athenshero1024x487.jpg" alt="view of athens college"> 
+            </picture>
+            <section class="purpose">
+                <h3>We are here for you</h3>
+                <p>At Chamber of Unity, we know there is more to a 
+                    community than the bricks and the stones. That's why 
+                    we strive to bring light to the people and businesses 
+                    that truly bring the unity to community. While providing 
+                    our local area with ways to reach out to members, join, 
+                    and even find upcoming events nearby.</p>
+                <button type="button" onclick="location.href='join.html';" >UNITE WITH US TODAY!</button>
+            </section>
+        </div>
+        <div class="athens">
+            <h2>Athens Alabama</h2>
+            <figure>
+                <img src="images/park.jpg" alt="athen's park" loading="lazy">
+                <figcaption>Athen's Local Park</figcaption>
+            </figure>
+            <p>Located in north-central Alabama, 15 miles from the Tennessee border, Athens is the
+                county seat of Limestone County. Since its founding in 1818, one year before Alabama's
+                admittance into the Union, Athens has contributed significantly to shaping the history
+                of the state. Home to three Alabama governors and the state's oldest institution of higher
+                education, Athens boasts a number of historic buildings and residences. Originally an
+                agricultural community, Athens has evolved into a
+                major center of technology in North Alabama. Athens has a mayor-council form of government.</p>
+            <h3>Demographics</h3>
+            <p>The population of Athens, according to 2016 Census estimates, was
+                24,461. Of that total, 74.4 percent of respondents identified
+                themselves as white, 17.5 percent as African American, 8.8 percent
+                Hispanic, 3.1 percent as two or more races, 0.9 percent as Native
+                American, 0.7 percent as Asian, and 0.1 percent as Native Hawaiian
+                and Other Pacific Islander. The city's median household income was
+                $44,920, and the per capita income was $28,865.</p>
+            <h3>Education</h3>
+            <p>The Athens City School System has four elementary schools, one intermediate school,
+                one middle school, and one high school. The city has two private K-12 schools.</p>
+            <h3>Events and Places of Interest</h3>
+            <p>The Athens area is host to a number of cultural,
+                sports, and outdoor recreation opportunities.
+                One of the best known yearly events in Athens
+                is the Tennessee Valley Old Time Fiddlers Convention,
+                which is held at Athens State University every October
+                and attracts approximately 15,000 music lovers from across
+                the country. 
+            <br>
+            <br>
+                Donnell House
+                In addition to the weekend of musical competition,
+                hundreds of musicians participate in the numerous
+                jam sessions conducted across the campus. Another
+                event is the Annual Storytelling Festival, spanning
+                three days in downtown Athens every October and featuring
+                story tellers from across the nation. 
+            <br>
+            <br>
+                The Alabama Veterans
+                Museum and Archives, located in the former L&N freight depot,
+                features displays of memorabilia from the Revolutionary War
+                to the present in honor of veterans. A number of structures
+                in Athens are listed on the National Register of Historic
+                Places, including the Robert Donnell House (1840), Cotton
+                Hill (ca. 1828), the Joel Eddins House (ca. 1810), Fort
+                Henderson, and the Courthouse Square and State College
+                Historic Districts.
+            <br>
+            <br>
+                Wheeler Lake, the second largest reservoir in Alabama,
+                is known for its catfish population. In 1996, the world
+                record blue catfish, 111 pounds, was caught in the Wheeler
+                reservoir. The city of Athens Parks and Recreation Department
+                maintains and manages five city parks, the Athens Recreation
+                Center, and the Athens Sportsplex. Every September, Athens
+                hosts its annual Grease Fest, in which celebrants dress in
+                togas and consume greasy foods such as fried cookies and snack cakes.
+            </p>
+        </div>
+        <div class="events">
+            <h2>Upcoming Local Events</h2>
+            <p>Apr 9 & 10, 2021 -- Annual Red Carpet Affair Beauty Walk</p>
+            <p>Apr 10, 2021 -- Athens Historic Walking Tours</p>
+            <p>Apr 13, 2021 -- Ask A Master Gardener</p>
+            <p>Apr 15, 2021 -- Annual Athens HS Booster Club Golf Tournament</p>
+            <p>Apr 17, 2021 -- Attention Homes Child Abuse Prevention Event</p>
+            <h3><a href="https://www.plgrove.org/events/">Look for more exciting events here!</a></h3>
+        </div>
+    </main>
+    <footer>
+        <div class="footerData">
+            <div class="contact">
+                <h2>Contact Us</h2>
+                <div class="wholeContact">
+                    <section class="address">
+                        <h4>Address:</h4>
+                        <p>Pleasant Grove Justice Court<br>
+                        108 S 100 E<br>
+                        Pleasant Grove, UT 84062</p>
+                    </section>
+                    <section class="method">
+                        <h4>Phone:</h4>
+                        <p>(999)999-9999</p>
+                        <h4>Email:</h4>
+                        <p>fakerealemail@gmail.com</p>
+                    </section>
+                </div>
+            </div>
+            <div class="socialIcons">
+                <a class="social" href="//www.facebook.com/">
+                    <img class="social" src="images/facebook.png" alt="facebook icon">
+                </a>
+                <a class="social" href="//www.twitter.com">
+                    <img class="social" src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a class="social" href="//www.youtube.com/watch?v=dQw4w9WgXcQ">
+                    <img class="social" src="images/youtube.png" alt="youtube icon">
+                </a>
+            </div>
+            <div class="info">
+                <p>&copy; <span id="getYear"></span> | Jorge Ovalle</p>
+                <p class="last"><span id="modified"></span></p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

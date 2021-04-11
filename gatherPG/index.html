@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"/>
+    <title>Home: GatherPG</title>
+    <meta name="description" content="home page for gatherPG" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+  <body>
+    <div id="close" class="alert">
+        <h1>Alert <span id="alerttitle"></span></h1>
+        <p><span id="weatheralert"></span></p>
+        <button id="alertClose" class="" onclick="removeAlert()">Close Weather Alert</button>
+        
+    </div>
+    <header>
+        <div class="fullHeader clearfix">
+            
+            <div class="headerTitles">
+                <h1>GatherPG</h1>
+                <h2>Meet us at the Grove</h2>
+            </div>
+            <div class="headerLogo">
+                <img src="images/chamberlogo.svg" alt="logo for GatherPG">
+            </div>
+            <button id="primaryOpen" class="" onclick="toggleMenu()">&#9776; Menu</button>
+            <button id="primaryClose" class="disabled" onclick="toggleMenu()">X Menu</button>
+        </div>
+    </header>
+    <nav>
+        <div class="navContainer">
+            <ul id="primaryNav" class="nav disabled">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="pleasantGrove.html">Pleasant Grove</a></li>
+                <li><a href="join.html">Join Us</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="hero">
+            <picture class="heroImg">
+                <source media="(max-width: 500px)" srcset="images/homehero500x238.jpg">
+                <source media="(max-width: 1024px)" srcset="images/homehero704x335.jpg">
+                <img src="images/homehero1024x487.jpg" alt="view of athens courthouse"> 
+            </picture>
+            <section class="purpose">
+                <h3>We are here for you</h3>
+                <p>At Chamber of Unity, we know there is more to a 
+                    community than the bricks and the stones. That's why 
+                    we strive to bring light to the people and businesses 
+                    that truly bring the unity to community. While providing 
+                    our local area with ways to reach out to members, join, 
+                    and even find upcoming events nearby.</p>
+                <button type="button" onclick="location.href='join.html';" >UNITE WITH US TODAY!</button>
+            </section>
+        </div>
+        <div class="weather">
+            <section class="currentWeather">
+                <h3>Current Weather</h3>
+                <div class="labels">
+                    <p>Currently:</p>
+                    <p>Current:</p>
+                    <p>Humidity:</p>
+                </div>
+                <div class="labelsData">
+                    <p><span id="currently"></span></p>
+                    <p><span id="temp"></span>&#176;F</p>
+                    <p><span id="humidity"></span></p>
+                </div>
+            </section>
+            <div id="weatherforecast" class="threedayForecast">
+                <h3>3-Day Forecast</h3>
+            </div>
+        </div>
+        <div class="advertisement">
+            <h2>Check out these local Businesses</h2>
+            <a class="ads" href="//www.eatatjacks.com/">
+                <img class="ads" src="images/jacksad.jpg" alt="advertisement for Jacks">
+            </a>
+            <a class="ads" href="//www.lawlersbarbecue.com/">
+                <img class="ads" src="images/lawyerad.jpg" alt="advertisement for lawlers">
+            </a>
+            <a class="ads" href="//www.popeyes.com/">
+                <img class="ads" src="images/popeyead.jpg" alt="advertisement for popeyes">
+            </a>
+        </div>
+        <div class="events">
+            <h2>Upcoming Local Events</h2>
+            <p>Apr 9 & 10, 2021 -- Annual Red Carpet Affair Beauty Walk</p>
+            <p>Apr 10, 2021 -- Athens Historic Walking Tours</p>
+            <p>Apr 13, 2021 -- Ask A Master Gardener</p>
+            <p>Apr 15, 2021 -- Annual Athens HS Booster Club Golf Tournament</p>
+            <p>Apr 17, 2021 -- Attention Homes Child Abuse Prevention Event</p>
+            <h3><a href="https://www.plgrove.org/events/">More exciting events are coming to Pleasant Grove! Click Here!</a></h3>
+        </div>
+    </main>
+    <footer>
+        <div class="footerData">
+            <div class="contact">
+                <h2>Contact Us</h2>
+                <div class="wholeContact">
+                    <section class="address">
+                        <h4>Address:</h4>
+                        <p>Pleasant Grove Justice Court<br>
+                        108 S 100 E<br>
+                        Pleasant Grove, UT 84062</p>
+                    </section>
+                    <section class="method">
+                        <h4>Phone:</h4>
+                        <p>(999)999-9999</p>
+                        <h4>Email:</h4>
+                        <p>fakerealemail@gmail.com</p>
+                    </section>
+                </div>
+            </div>
+            <div class="socialIcons">
+                <a class="social" href="//www.facebook.com/">
+                    <img class="social" src="images/facebook.png" alt="facebook icon">
+                </a>
+                <a class="social" href="//www.twitter.com">
+                    <img class="social" src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a class="social" href="//www.youtube.com/">
+                    <img class="social" src="images/youtube.png" alt="youtube icon">
+                </a>
+            </div>
+            <div class="info">
+                <p>Weather Data provided by OpenWeatherMap </p>
+                <p>&copy; <span id="getYear"></span> | Jorge Ovalle</p>
+                <p class="last"><span id="modified"></span></p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/homescripts.js"></script>
+  </body>
+</html>

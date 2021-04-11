@@ -1,0 +1,32 @@
+@media only screen and (min-width: 1024px) {
+    .headerLogo {
+        width: 110px;
+        padding-top: 1px;
+    }
+    .headerTitles h1 {
+        font-size: 2rem;
+  
+    }
+    .headerTitles h2 {
+        font-size: 1.5rem;
+    }
+    nav ul li {
+        font-size: 1.2rem;
+    }
+    .threedayForecast {
+        grid-row: 1/2;
+        grid-column: 2/4;
+    }
+    .events {
+        font-size: 1.2em;
+    }
+    .advertisement {
+        max-width: 930px;
+    }
+    .directoryGrid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .board {
+        font-size: 1.5em;
+    }
+}

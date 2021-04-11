@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"/>
+    <title>Directory: GatherPG</title>
+    <meta name="description" content="Directory for GatherPG" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+  <body>
+    <header>
+        <div class="fullHeader clearfix">
+            
+            <div class="headerTitles">
+                <h1>GatherPG</h1>
+                <h2>Come meet us at the Grove</h2>
+            </div>
+            <div class="headerLogo">
+                <img src="images/chamberlogo.svg" alt="logo for GatherPG">
+            </div>
+            <button id="primaryOpen" class="" onclick="toggleMenu()">&#9776; Menu</button>
+            <button id="primaryClose" class="disabled" onclick="toggleMenu()">X Menu</button>
+        </div>
+    </header>
+    <nav>
+        <div class="navContainer">
+            <ul id="primaryNav" class="nav disabled">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pleasantGrove.html">Pleasant Grove</a></li>
+                <li><a href="join.html">Join Us</a></li>
+                <li><a class="active" href="directory.html">Directory</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="buttoncontainer">
+            <input id="grid" class="display " type="image" src="images/gridview.svg" alt="grid view" onclick="switchgrid();"> 
+            <input id="list" class="display currentView" type="image" src="images/listview.svg" alt="list view" onclick="switchlist();">
+        </div>
+        <div id="swap" class="directoryList">
+        
+        </div>
+    </main>
+    <footer>
+        <div class="footerData">
+            <div class="contact">
+                <h2>Contact Us</h2>
+                <div class="wholeContact">
+                    <section class="address">
+                        <h4>Address:</h4>
+                        <p>Pleasant Grove Justice Court<br>
+                        108 S 100 E<br>
+                        Pleasant Grove, UT 84062</p>
+                    </section>
+                    <section class="method">
+                        <h4>Phone:</h4>
+                        <p>(999)999-9999</p>
+                        <h4>Email:</h4>
+                        <p>fakerealemail@gmail.com</p>
+                    </section>
+                </div>
+            </div>
+            <div class="socialIcons">
+                <a class="social" href="//www.facebook.com/">
+                    <img class="social" src="images/facebook.png" alt="facebook icon">
+                </a>
+                <a class="social" href="//www.twitter.com">
+                    <img class="social" src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a class="social" href="//www.youtube.com/watch?v=dQw4w9WgXcQ">
+                    <img class="social" src="images/youtube.png" alt="youtube icon">
+                </a>
+            </div>
+            <div class="info">
+                <p>&copy; <span id="getYear"></span> | Jorge Ovalle</p>
+                <p class="last"><span id="modified"></span></p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/directory.js"></script>
+  </body>
+</html>

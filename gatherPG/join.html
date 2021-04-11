@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"/>
+    <title>Join: Chamber of Unity</title>
+    <meta name="description" content="Athens page of the camber of unity" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+  <body>
+    <header>
+        <div class="fullHeader clearfix">
+            
+            <div class="headerTitles">
+                <h1>Chamber of</h1>
+                <h2>We put the Unity in Community</h2>
+            </div>
+            <div class="headerLogo">
+                <img src="images/chamberlogo.svg" alt="logo for chamber of unity">
+            </div>
+            <button id="primaryOpen" class="" onclick="toggleMenu()">&#9776; Menu</button>
+            <button id="primaryClose" class="disabled" onclick="toggleMenu()">X Menu</button>
+        </div>
+    </header>
+    <nav>
+        <div class="navContainer">
+            <ul id="primaryNav" class="nav disabled">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="athens.html">Athens</a></li>
+                <li><a class="active" href="join.html">Join Us</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+       <div class="join">
+            <div class="joinpurpose">
+                <h2>We are here for you</h2>
+                <p>At Chamber of Unity, we know there is more to a 
+                    community than the bricks and the stones. That's why 
+                    we strive to bring light to the people and businesses 
+                    that truly bring the unity to community. While providing 
+                    our local area with ways to reach out to members, join, 
+                    and even find upcoming events nearby.</p>
+            </div>
+            
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label class="ftop">First Name* <input type="text" name="fname" pattern="[A-za-z ]{5,}" required placeholder="Paul"> </label>
+                    <label class="ftop">Last Name* <input type="text" name="lname" pattern="[A-za-z ]{5,}" required placeholder="Smith"></label>
+                    <label class="ftop">Title <input type="text" name="title" pattern="[A-za-z ]{5,}" placeholder="Human Resource director"> </label>
+                    <label class="ftop">Email* <input type="email" name="email" placeholder="someone@gmail.com" required> </label>
+                    <label class="ftop">Cell Phone <input type="tel" name="phone" placeholder="1256831234"> </label>
+                </fieldset>
+                 <fieldset>
+                    <legend>Business Information</legend>
+                    <label class="ftop">Business Name* <input type="text" name="bname" pattern="[A-za-z ]{3,}" required> </label>
+                    <label class="ftop">Business Address <input type="text" name="baddress" pattern="[A-za-z ]{5,}" placeholder="125 welcome court"> </label>
+                    <label class="ftop">Business Website <input type="url" name="waddress" placeholder="www.placeyourlinkhere.com"> </label>
+                    <label class="ftop">Business Description <textarea name="description" rows="20" cols="50" placeholder="Description here..."></textarea></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Membership Options</legend>
+                    <label class="sbs">Membership level* (more information below)</label> 
+                    <label class="sbs"><input type="radio" name="membership" value="non-profit" required> Non-profit ($100)</label>
+                    <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze ($200)</label>
+                    <label class="sbs"><input type="radio" name="membership" value="silver"> Silver ($400)</label>
+                    <label class="sbs"><input type="radio" name="membership" value="gold"> Gold ($1000)</label>
+                    <br>
+                    <br>
+                    <table>
+                        <tr>
+                            <th>Benefits</th>
+                            <th>Non-profit</th>
+                            <th>Bronze</th>
+                            <th>Silver</th>
+                            <th>Gold</th>
+                        </tr>
+                        <tr>
+                            <td>Directory listing</td>
+                            <td> * </td>
+                            <td> * </td>
+                            <td> * </td>
+                            <td> * </td>
+                        </tr>
+                        <tr>
+                            <td>Social Media posts</td>
+                            <td> * </td>
+                            <td> * </td>
+                            <td> * </td>
+                            <td> * </td>
+                        </tr>
+                        <tr>
+                            <td>Lucheon tickets</td>
+                            <td>  </td>
+                            <td> * </td>
+                            <td> * </td>
+                            <td> * </td>
+                        </tr>
+                        <tr>
+                            <td>Sponsorships</td>
+                            <td>  </td>
+                            <td>  </td>
+                            <td> * </td>
+                            <td> * </td>
+                        </tr>
+                        <tr>
+                            <td>Buisness Training</td>
+                            <td>   </td>
+                            <td>   </td>
+                            <td>  </td>
+                            <td> * </td>
+                        </tr>
+                        <tr>
+                            <td>Event Booths</td>
+                            <td>   </td>
+                            <td>   </td>
+                            <td>   </td>
+                            <td> * </td>
+        
+                        </tr>
+                    </table>
+                </fieldset>
+                <input class="submitBtn" type="submit" value="Welcome to Aboard">
+            </form>
+       </div>
+    </main>
+    <footer>
+        <div class="footerData">
+            <div class="contact">
+                <h2>Contact Us</h2>
+                <div class="wholeContact">
+                    <section class="address">
+                        <h4>Address:</h4>
+                        <p>Pleasant Grove Justice Court<br>
+                        108 S 100 E<br>
+                        Pleasant Grove, UT 84062</p>
+                    </section>
+                    <section class="method">
+                        <h4>Phone:</h4>
+                        <p>(999)999-9999</p>
+                        <h4>Email:</h4>
+                        <p>fakerealemail@gmail.com</p>
+                    </section>
+                </div>
+            </div>
+            <div class="socialIcons">
+                <a class="social" href="//www.facebook.com/">
+                    <img class="social" src="images/facebook.png" alt="facebook icon">
+                </a>
+                <a class="social" href="//www.twitter.com">
+                    <img class="social" src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a class="social" href="//www.youtube.com/watch?v=dQw4w9WgXcQ">
+                    <img class="social" src="images/youtube.png" alt="youtube icon">
+                </a>
+            </div>
+            <div class="info">
+                <p>&copy; <span id="getYear"></span> | Jorge Ovalle</p>
+                <p class="last"><span id="modified"></span></p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

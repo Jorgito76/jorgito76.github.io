@@ -1,0 +1,209 @@
+@media only screen and (min-width: 600px) {
+    /*header*/
+    header {
+        display: grid;
+        grid-template-columns: 1fr 20rem 1fr;
+    }
+    .fullHeader {
+        grid-column: 2/3;
+    }
+    header button {
+        display: none;
+    }
+    .headerTitles h1 {
+        font-size: 1.7rem;
+        text-align: right;
+        
+    }
+    .headerTitles h2 {
+        font-size: 1.2rem;
+        text-align: right;
+    }
+    .headerLogo {
+        width: 80px;
+    }
+    /*nav*/
+    .nav {
+        display: flex;
+        max-width: 1078px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+    nav ul li {
+        width: 25%;
+        flex: 1 1 100%;
+        font-size: 1rem;
+        border-right: 1px solid #000000;
+    }
+    /*footer*/
+    footer {
+        max-width: 64rem;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        height: 300px;
+    }
+    footer .footerData {
+        display: grid;
+        grid-template-columns:  1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    
+    }
+    footer h2, footer h4 {
+        font-size: 1em;
+    }
+    footer .contact {
+        grid-column: 1/3;
+        text-align: left;
+    }
+    footer .socialIcons {
+        grid-column: 3/4;
+        width: 300px;
+        margin-left: 95px;
+        margin-top: 95px;
+        display: flex;
+    }
+    footer .info {
+        text-align: center;
+        grid-column: 1/4;
+        grid-row: 2/3;
+    }
+    .wholeContact {
+        display: grid;
+        grid-template-columns:  1fr 1fr;
+    }
+    .address {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .method {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .social {
+        display: block;
+    }
+
+    /*main home*/
+    .purpose {
+        width: 25rem;
+        top: 50px;
+        right: 30px;
+        opacity: 0.9;
+        border: 2px solid #000000; 
+        background-color:#6bd8ff;
+        position: absolute;
+    }
+    .purpose h3 {
+        font-size: 1.5em;
+    }
+    .purpose p {
+        font-size: 1.1em;
+        padding: 10px;
+    }
+    .purpose button {
+        height: 50px;
+        font-size: 1.5em;
+    }
+    .weather {
+        max-width: 50rem;
+        align-items: center;
+        justify-content: center;
+        display : grid;
+        grid-template-columns: 1fr 1fr;
+        width: auto;
+        gap: 15px;
+    }
+    .currentWeather {
+        width: 300px;
+    }
+    
+    .threedayForecast {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 35px 1fr;
+        grid-row: 2/3;
+        grid-column: 1/3;
+    }
+    .threedayForecast  h3 {
+        grid-column: 1/4;
+    }
+    
+    .threedayForecast .w_box {
+        width: 150px;
+    }
+    .events {
+        font-size: 1em;
+    }
+    .advertisement {
+        max-width: 620px;
+    }
+    /*athens*/
+    .athens figure {
+        width: 400px;
+        float: right;
+    }
+    .athens figure img {
+        width:  400px;
+    }
+    /*join*/
+    form {
+        margin: 2% auto;
+    }
+    .joinpurpose {
+        margin: 8px auto;
+        width: 80%;
+    }
+    
+    .joinpurpose p {
+        font-size: 1em;
+    }
+    /*directory*/
+    .directoryGrid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .directoryList {
+        margin: 2% auto;
+       max-width: 30rem;
+    }
+    .directoryList section{
+        padding-top: 50px;
+    }
+    .directoryList img {
+        float: left;
+        padding-right: 5px;
+        width: 140px;
+    }
+    .directoryList h2 {
+        font-size: 1.5em;
+    }
+    .directoryList p {
+        font-size: 1em;;
+    }
+    
+    .buttoncontainer {
+        display: block;
+        margin-left: 80%;
+    }
+    .googlemap {
+        height: 250px;
+        grid-column: 1/3;
+        margin-bottom: 0;
+    }
+    .contactPage {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .pageContact {
+        grid-column: 1/3;
+    }
+    .board {
+        margin-top: 50px;
+        padding-left: 10px;
+        font-size: 1.2em;
+    }
+}

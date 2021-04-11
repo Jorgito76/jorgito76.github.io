@@ -1,0 +1,53 @@
+{
+    "businesses": [
+        {
+            "directoryId": 1,
+            "businessName": "Chubby's Cafe",
+            "phoneNumber": "(801)785-1503",
+            "logo": "images/busiLogos/Capture28.png",
+            "website": "//www.chubbyscafeut.com/"
+        },
+        {
+            "directoryId": 2,
+            "businessName": "Firebird Pizza & Pasta",
+            "phoneNumber": "(801)785-8804",
+            "logo": "images/busiLogos/Capture27.png",
+            "website": "//www.firebirdpizza.com/"
+        },
+        {
+            "directoryId": 3,
+            "businessName": "Purple Turtle",
+            "phoneNumber": "+18017852444",
+            "logo": "images/busiLogos/Capture26.png",
+            "website": "//purpleturtlediner.com//"
+        },
+        {
+            "directoryId": 4,
+            "businessName": "Pho No.1",
+            "phoneNumber": "+18017852777",
+            "logo": "images/busiLogos/Capture25.png",
+            "website": "https://phono1utah.com/"
+        },
+        {
+            "directoryId": 5,
+            "businessName": "The Italian Place Cheesesteaks",
+            "phoneNumber": "+18017965622",
+            "logo": "images/busiLogos/Capture24.png",
+            "website": "http://www.italianplaceutah.com/"
+        },
+        {
+            "directoryId": 6,
+            "businessName": "Los Dos Compadres Restaurant",
+            "phoneNumber": "+18017960979",
+            "logo": "images/busiLogos/Capture23.png",
+            "website": "https://www.los2compadresrestaurant.com/menu"
+        },
+        {
+            "directoryId": 7,
+            "businessName": "Rocky Mountain Motor Cars",
+            "phoneNumber": "+18017851058",
+            "logo": "images/busiLogos/Capture22.png",
+            "website": "http://www.rockymountainmotorcars.com/"
+        }
+    ]
+}
