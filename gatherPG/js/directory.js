@@ -26,7 +26,6 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-        //console.table(jsonObject);  
         const businesses = jsonObject["businesses"];
 
         for (let i = 0; i < businesses.length; i++) {

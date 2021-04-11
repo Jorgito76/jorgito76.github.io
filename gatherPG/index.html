@@ -5,7 +5,8 @@
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1"/>
-    <title>Home: GatherPG</title>
+      <link rel="shortcut icon" href="/gatherPG/PGfavicon.ico">
+    <title>Home | GatherPG</title>
     <meta name="description" content="home page for gatherPG" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/small.css" />
@@ -27,7 +28,7 @@
                 <h2>Meet us at the Grove</h2>
             </div>
             <div class="headerLogo">
-                <img src="images/chamberlogo.svg" alt="logo for GatherPG">
+                <img src="images/PGlogo.png" alt="logo for GatherPG">
             </div>
             <button id="primaryOpen" class="" onclick="toggleMenu()">&#9776; Menu</button>
             <button id="primaryClose" class="disabled" onclick="toggleMenu()">X Menu</button>
@@ -47,24 +48,22 @@
     <main>
         <div class="hero">
             <picture class="heroImg">
-                <source media="(max-width: 500px)" srcset="images/homehero500x238.jpg">
-                <source media="(max-width: 1024px)" srcset="images/homehero704x335.jpg">
-                <img src="images/homehero1024x487.jpg" alt="view of athens courthouse"> 
+                <source media="(max-width: 500px)" srcset="images/homehero500.jpg">
+                <source media="(max-width: 1024px)" srcset="images/homehero704.jpg">
+                <img src="images/homehero1024.jpg" alt="view of the G in Pleasant Grove"> 
             </picture>
             <section class="purpose">
-                <h3>We are here for you</h3>
-                <p>At Chamber of Unity, we know there is more to a 
-                    community than the bricks and the stones. That's why 
-                    we strive to bring light to the people and businesses 
-                    that truly bring the unity to community. While providing 
-                    our local area with ways to reach out to members, join, 
-                    and even find upcoming events nearby.</p>
-                <button type="button" onclick="location.href='join.html';" >UNITE WITH US TODAY!</button>
+                <h3>The G is about to be lit</h3>
+                <p>In GatherPG, we are proud of the local business that help us
+                    call Pleasant Grove UT home. They bring and shine light to our culture. Local business and 
+                    people are excited to show you what we are all about!
+                </p>
+                <button type="button" onclick="location.href='join.html';" >Become part of the Grove!</button>
             </section>
         </div>
         <div class="weather">
             <section class="currentWeather">
-                <h3>Current Weather</h3>
+                <h3 class="weatherheader">Current Weather</h3>
                 <div class="labels">
                     <p>Currently:</p>
                     <p>Current:</p>
@@ -77,35 +76,30 @@
                 </div>
             </section>
             <div id="weatherforecast" class="threedayForecast">
-                <h3>3-Day Forecast</h3>
+                <h3>Forecast For Pleasant Grove</h3>
             </div>
         </div>
         <div class="advertisement">
-            <h2>Check out these local Businesses</h2>
-            <a class="ads" href="//www.eatatjacks.com/">
-                <img class="ads" src="images/jacksad.jpg" alt="advertisement for Jacks">
+            <h2>Local Ads - Check Them Out!</h2>
+            <a class="ads" href="//www.chubbyscafeut.com/">
+                <img class="ads" src="images/chubbyad.png" alt="Chubbys Cafe Ads">
             </a>
-            <a class="ads" href="//www.lawlersbarbecue.com/">
-                <img class="ads" src="images/lawyerad.jpg" alt="advertisement for lawlers">
+            <a class="ads" href="//www.firebirdpizza.com/">
+                <img class="ads" src="images/firebirdad.png" alt="FireBird Ads">
             </a>
-            <a class="ads" href="//www.popeyes.com/">
-                <img class="ads" src="images/popeyead.jpg" alt="advertisement for popeyes">
+            <a class="ads" href="//www.purpleturtlediner.com/">
+                <img class="ads" src="images/purpleturlead.png" alt="Purple Turtle Ads">
             </a>
         </div>
         <div class="events">
-            <h2>Upcoming Local Events</h2>
-            <p>Apr 9 & 10, 2021 -- Annual Red Carpet Affair Beauty Walk</p>
-            <p>Apr 10, 2021 -- Athens Historic Walking Tours</p>
-            <p>Apr 13, 2021 -- Ask A Master Gardener</p>
-            <p>Apr 15, 2021 -- Annual Athens HS Booster Club Golf Tournament</p>
-            <p>Apr 17, 2021 -- Attention Homes Child Abuse Prevention Event</p>
+            <h2>Local Events</h2>
+            <p>June 16th - 19th 🍓Strawberry Days🍓
             <h3><a href="https://www.plgrove.org/events/">More exciting events are coming to Pleasant Grove! Click Here!</a></h3>
         </div>
     </main>
     <footer>
         <div class="footerData">
             <div class="contact">
-                <h2>Contact Us</h2>
                 <div class="wholeContact">
                     <section class="address">
                         <h4>Address:</h4>
@@ -141,6 +135,5 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/homescripts.js"></script>
   </body>
 </html>

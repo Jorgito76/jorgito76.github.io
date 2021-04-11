@@ -5,8 +5,9 @@
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1"/>
-    <title>Join: Chamber of Unity</title>
-    <meta name="description" content="Athens page of the camber of unity" />
+      <link rel="shortcut icon" href="/gatherPG/PGfavicon.ico">
+    <title>Join | GatherPG</title>
+    <meta name="description" content="Join page for GatherPG" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css" />
@@ -17,11 +18,11 @@
         <div class="fullHeader clearfix">
             
             <div class="headerTitles">
-                <h1>Chamber of</h1>
-                <h2>We put the Unity in Community</h2>
+                <h1>GatherPG</h1>
+                <h2>Meet us at the Grove</h2>
             </div>
             <div class="headerLogo">
-                <img src="images/chamberlogo.svg" alt="logo for chamber of unity">
+                <img src="images/PGlogo.png" alt="logo for GatherPG">
             </div>
             <button id="primaryOpen" class="" onclick="toggleMenu()">&#9776; Menu</button>
             <button id="primaryClose" class="disabled" onclick="toggleMenu()">X Menu</button>
@@ -31,7 +32,7 @@
         <div class="navContainer">
             <ul id="primaryNav" class="nav disabled">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="athens.html">Athens</a></li>
+                <li><a href="pleasantGrove.html">Pleasant Grove</a></li>
                 <li><a class="active" href="join.html">Join Us</a></li>
                 <li><a href="directory.html">Directory</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
@@ -41,38 +42,36 @@
     <main>
        <div class="join">
             <div class="joinpurpose">
-                <h2>We are here for you</h2>
-                <p>At Chamber of Unity, we know there is more to a 
-                    community than the bricks and the stones. That's why 
-                    we strive to bring light to the people and businesses 
-                    that truly bring the unity to community. While providing 
-                    our local area with ways to reach out to members, join, 
-                    and even find upcoming events nearby.</p>
+                <h2>The G is about to be lit</h2>
+                <p>In GatherPG, we are proud of the local business that help us
+                    call Pleasant Grove UT home. They bring and shine light to our culture. Local business and 
+                    people are excited to show you what we are all about!</p>
+                <p>Become part of the Grove!</p>
             </div>
             
             <form method="get" action="thanks.html">
                 <fieldset>
-                    <legend>Personal Information</legend>
-                    <label class="ftop">First Name* <input type="text" name="fname" pattern="[A-za-z ]{5,}" required placeholder="Paul"> </label>
-                    <label class="ftop">Last Name* <input type="text" name="lname" pattern="[A-za-z ]{5,}" required placeholder="Smith"></label>
-                    <label class="ftop">Title <input type="text" name="title" pattern="[A-za-z ]{5,}" placeholder="Human Resource director"> </label>
-                    <label class="ftop">Email* <input type="email" name="email" placeholder="someone@gmail.com" required> </label>
-                    <label class="ftop">Cell Phone <input type="tel" name="phone" placeholder="1256831234"> </label>
+                    <legend>Who Are You?</legend>
+                    <label class="ftop">First Name* <input type="text" name="fname" pattern="[A-za-z ]{5,}" required placeholder="George"> </label>
+                    <label class="ftop">Last Name* <input type="text" name="lname" pattern="[A-za-z ]{5,}" required placeholder="Jones"></label>
+                    <label class="ftop">Title <input type="text" name="title" pattern="[A-za-z ]{5,}" placeholder="Business Analyst"> </label>
+                    <label class="ftop">Email* <input type="email" name="email" placeholder="youremail@domain.com" required> </label>
+                    <label class="ftop">Cell Phone <input type="tel" name="phone" placeholder="(111) 999-9468"> </label>
                 </fieldset>
                  <fieldset>
-                    <legend>Business Information</legend>
+                    <legend>Let Us Know About Your Business!</legend>
                     <label class="ftop">Business Name* <input type="text" name="bname" pattern="[A-za-z ]{3,}" required> </label>
-                    <label class="ftop">Business Address <input type="text" name="baddress" pattern="[A-za-z ]{5,}" placeholder="125 welcome court"> </label>
-                    <label class="ftop">Business Website <input type="url" name="waddress" placeholder="www.placeyourlinkhere.com"> </label>
-                    <label class="ftop">Business Description <textarea name="description" rows="20" cols="50" placeholder="Description here..."></textarea></label>
+                    <label class="ftop">Business Address <input type="text" name="baddress" pattern="[A-za-z ]{5,}" placeholder="1208 East.."> </label>
+                    <label class="ftop">Business Website <input type="url" name="waddress" placeholder="yourwebsite.com"> </label>
+                    <label class="ftop">Business Description <textarea name="description" rows="20" cols="50" placeholder="Enter a brief description of your business..."></textarea></label>
                 </fieldset>
                 <fieldset>
-                    <legend>Membership Options</legend>
-                    <label class="sbs">Membership level* (more information below)</label> 
-                    <label class="sbs"><input type="radio" name="membership" value="non-profit" required> Non-profit ($100)</label>
-                    <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze ($200)</label>
-                    <label class="sbs"><input type="radio" name="membership" value="silver"> Silver ($400)</label>
-                    <label class="sbs"><input type="radio" name="membership" value="gold"> Gold ($1000)</label>
+                    <legend>Membership</legend>
+                    <label class="sbs">Membership level - make sure to look at what each package has to offer below!</label> 
+                    <label class="sbs"><input type="radio" name="membership" value="non-profit" required> Non-profit - $5</label>
+                    <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze - $15</label>
+                    <label class="sbs"><input type="radio" name="membership" value="silver"> Silver - $30</label>
+                    <label class="sbs"><input type="radio" name="membership" value="gold"> Gold - $50</label>
                     <br>
                     <br>
                     <table>
@@ -128,14 +127,13 @@
                         </tr>
                     </table>
                 </fieldset>
-                <input class="submitBtn" type="submit" value="Welcome to Aboard">
+                <input class="submitBtn" type="submit" value="Welcome to GatherPG!">
             </form>
        </div>
     </main>
     <footer>
         <div class="footerData">
             <div class="contact">
-                <h2>Contact Us</h2>
                 <div class="wholeContact">
                     <section class="address">
                         <h4>Address:</h4>
@@ -158,7 +156,7 @@
                 <a class="social" href="//www.twitter.com">
                     <img class="social" src="images/twitter.png" alt="twitter icon">
                 </a>
-                <a class="social" href="//www.youtube.com/watch?v=dQw4w9WgXcQ">
+                <a class="social" href="//www.youtube.com/">
                     <img class="social" src="images/youtube.png" alt="youtube icon">
                 </a>
             </div>

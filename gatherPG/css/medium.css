@@ -1,12 +1,6 @@
 @media only screen and (min-width: 600px) {
     /*header*/
-    header {
-        display: grid;
-        grid-template-columns: 1fr 20rem 1fr;
-    }
-    .fullHeader {
-        grid-column: 2/3;
-    }
+
     header button {
         display: none;
     }
@@ -38,7 +32,6 @@
         width: 25%;
         flex: 1 1 100%;
         font-size: 1rem;
-        border-right: 1px solid #000000;
     }
     /*footer*/
     footer {
@@ -93,10 +86,10 @@
     .purpose {
         width: 25rem;
         top: 50px;
-        right: 30px;
+        left: 30px;
         opacity: 0.9;
-        border: 2px solid #000000; 
-        background-color:#6bd8ff;
+        border: 2px solid #808080; 
+        background-color:white;
         position: absolute;
     }
     .purpose h3 {
